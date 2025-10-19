@@ -1,0 +1,10 @@
+{
+  "packageRules": [
+    {
+      "description": "official images to docker.io using replace",
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["redis"],
+      "replacementNameTemplate": "{{{replace 'redis' 'docker.io/library/redis' packageName}}}"
+    }
+  ]
+}
