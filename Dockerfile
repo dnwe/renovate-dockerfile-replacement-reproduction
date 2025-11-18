@@ -1,4 +1,4 @@
-FROM redis:8.2.1@sha256:5fa2edb1e408fa8235e6db8fab01d1afaaae96c9403ba67b70feceb8661e8621 AS base
+FROM redis:8.4.0@sha256:39debd9bd83500468d5014f4f2b7fb16711c849287d35f66b6d2d9c6b1623972 AS base
 
 FROM scratch
 
